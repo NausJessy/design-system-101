@@ -8,8 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		537020A528377CD500025DD3 /* DesignSystem101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5370209C28377CD400025DD3 /* DesignSystem101.framework */; };
-		537020AA28377CD500025DD3 /* DesignSystem101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020A928377CD500025DD3 /* DesignSystem101Tests.swift */; };
 		537020AB28377CD500025DD3 /* DesignSystem101.h in Headers */ = {isa = PBXBuildFile; fileRef = 5370209F28377CD400025DD3 /* DesignSystem101.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537020DA28377D0900025DD3 /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 537020B528377D0800025DD3 /* Fonts.bundle */; };
+		537020DB28377D0900025DD3 /* TypeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020B828377D0900025DD3 /* TypeStyle.swift */; };
+		537020DC28377D0900025DD3 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020B928377D0900025DD3 /* Font.swift */; };
+		537020E828377D0900025DD3 /* Spacer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020C928377D0900025DD3 /* Spacer+Extensions.swift */; };
+		537020E928377D0900025DD3 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020CA28377D0900025DD3 /* Spacer.swift */; };
+		537020EC28377D0900025DD3 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D128377D0900025DD3 /* IconView.swift */; };
+		537020ED28377D0900025DD3 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D328377D0900025DD3 /* ColorSet.swift */; };
+		537020EE28377D0900025DD3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D428377D0900025DD3 /* Theme.swift */; };
+		537020EF28377D0900025DD3 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D628377D0900025DD3 /* AnimationTiming.swift */; };
+		537020F028377D0900025DD3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D728377D0900025DD3 /* Animation.swift */; };
+		537020F128377D0900025DD3 /* AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D828377D0900025DD3 /* AnimationDuration.swift */; };
+		537020F228377D0900025DD3 /* ScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020D928377D0900025DD3 /* ScaleAnimation.swift */; };
+		537020F928377E9C00025DD3 /* FontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020F528377E9C00025DD3 /* FontTests.swift */; };
+		537020FA28377E9C00025DD3 /* TypeStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020F628377E9C00025DD3 /* TypeStyleTests.swift */; };
+		537020FB28377E9C00025DD3 /* SpacerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020F828377E9C00025DD3 /* SpacerTests.swift */; };
+		537020FF28377F9F00025DD3 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537020FE28377F9F00025DD3 /* Label.swift */; };
+		537021022837809000025DD3 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537021012837804A00025DD3 /* Icon.swift */; };
+		53702106283780FE00025DD3 /* Elevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53702104283780FE00025DD3 /* Elevation.swift */; };
+		53702107283780FE00025DD3 /* Elevation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53702105283780FE00025DD3 /* Elevation+Extensions.swift */; };
+		53702117283A850D00025DD3 /* LabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53702116283A850D00025DD3 /* LabelTests.swift */; };
+		53702119283A863600025DD3 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53702118283A863600025DD3 /* Icons.xcassets */; };
+		5370211B283A878A00025DD3 /* IconViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370211A283A878A00025DD3 /* IconViewTests.swift */; };
+		5370211E283A880E00025DD3 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 5370211D283A880E00025DD3 /* SnapshotTesting */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +48,28 @@
 		5370209C28377CD400025DD3 /* DesignSystem101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5370209F28377CD400025DD3 /* DesignSystem101.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem101.h; sourceTree = "<group>"; };
 		537020A428377CD500025DD3 /* DesignSystem101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystem101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		537020A928377CD500025DD3 /* DesignSystem101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem101Tests.swift; sourceTree = "<group>"; };
+		537020B528377D0800025DD3 /* Fonts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Fonts.bundle; sourceTree = "<group>"; };
+		537020B828377D0900025DD3 /* TypeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeStyle.swift; sourceTree = "<group>"; };
+		537020B928377D0900025DD3 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		537020C928377D0900025DD3 /* Spacer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Spacer+Extensions.swift"; sourceTree = "<group>"; };
+		537020CA28377D0900025DD3 /* Spacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		537020D128377D0900025DD3 /* IconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		537020D328377D0900025DD3 /* ColorSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		537020D428377D0900025DD3 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		537020D628377D0900025DD3 /* AnimationTiming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
+		537020D728377D0900025DD3 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		537020D828377D0900025DD3 /* AnimationDuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDuration.swift; sourceTree = "<group>"; };
+		537020D928377D0900025DD3 /* ScaleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleAnimation.swift; sourceTree = "<group>"; };
+		537020F528377E9C00025DD3 /* FontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTests.swift; sourceTree = "<group>"; };
+		537020F628377E9C00025DD3 /* TypeStyleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeStyleTests.swift; sourceTree = "<group>"; };
+		537020F828377E9C00025DD3 /* SpacerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacerTests.swift; sourceTree = "<group>"; };
+		537020FE28377F9F00025DD3 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		537021012837804A00025DD3 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		53702104283780FE00025DD3 /* Elevation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elevation.swift; sourceTree = "<group>"; };
+		53702105283780FE00025DD3 /* Elevation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Elevation+Extensions.swift"; sourceTree = "<group>"; };
+		53702116283A850D00025DD3 /* LabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTests.swift; sourceTree = "<group>"; };
+		53702118283A863600025DD3 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		5370211A283A878A00025DD3 /* IconViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				537020A528377CD500025DD3 /* DesignSystem101.framework in Frameworks */,
+				5370211E283A880E00025DD3 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				5370209F28377CD400025DD3 /* DesignSystem101.h */,
+				537020B428377D0800025DD3 /* Resources */,
+				537020B628377D0900025DD3 /* Sources */,
 			);
 			path = DesignSystem101;
 			sourceTree = "<group>";
@@ -77,9 +123,156 @@
 		537020A828377CD500025DD3 /* DesignSystem101Tests */ = {
 			isa = PBXGroup;
 			children = (
-				537020A928377CD500025DD3 /* DesignSystem101Tests.swift */,
+				53702115283A84F900025DD3 /* Components */,
+				537020FC28377EA700025DD3 /* Tokens */,
 			);
 			path = DesignSystem101Tests;
+			sourceTree = "<group>";
+		};
+		537020B428377D0800025DD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				537020B528377D0800025DD3 /* Fonts.bundle */,
+				53702118283A863600025DD3 /* Icons.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		537020B628377D0900025DD3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				537020CB28377D0900025DD3 /* Components */,
+				537020F328377D2900025DD3 /* Tokens */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		537020B728377D0900025DD3 /* TypeStyle */ = {
+			isa = PBXGroup;
+			children = (
+				537020B828377D0900025DD3 /* TypeStyle.swift */,
+				537020B928377D0900025DD3 /* Font.swift */,
+			);
+			path = TypeStyle;
+			sourceTree = "<group>";
+		};
+		537020C828377D0900025DD3 /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				537020C928377D0900025DD3 /* Spacer+Extensions.swift */,
+				537020CA28377D0900025DD3 /* Spacer.swift */,
+			);
+			path = Spacer;
+			sourceTree = "<group>";
+		};
+		537020CB28377D0900025DD3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				537020FD28377F8000025DD3 /* Label */,
+				537020D028377D0900025DD3 /* Icon */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		537020D028377D0900025DD3 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				537020D128377D0900025DD3 /* IconView.swift */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		537020D228377D0900025DD3 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				537020D328377D0900025DD3 /* ColorSet.swift */,
+				537020D428377D0900025DD3 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		537020D528377D0900025DD3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				537020D628377D0900025DD3 /* AnimationTiming.swift */,
+				537020D728377D0900025DD3 /* Animation.swift */,
+				537020D828377D0900025DD3 /* AnimationDuration.swift */,
+				537020D928377D0900025DD3 /* ScaleAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		537020F328377D2900025DD3 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				537020D528377D0900025DD3 /* Animations */,
+				53702103283780FE00025DD3 /* Elevation */,
+				537021002837804400025DD3 /* Icon */,
+				537020C828377D0900025DD3 /* Spacer */,
+				537020D228377D0900025DD3 /* Theme */,
+				537020B728377D0900025DD3 /* TypeStyle */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		537020F428377E9C00025DD3 /* TypeStyle */ = {
+			isa = PBXGroup;
+			children = (
+				537020F528377E9C00025DD3 /* FontTests.swift */,
+				537020F628377E9C00025DD3 /* TypeStyleTests.swift */,
+			);
+			path = TypeStyle;
+			sourceTree = "<group>";
+		};
+		537020F728377E9C00025DD3 /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				537020F828377E9C00025DD3 /* SpacerTests.swift */,
+			);
+			path = Spacer;
+			sourceTree = "<group>";
+		};
+		537020FC28377EA700025DD3 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				537020F728377E9C00025DD3 /* Spacer */,
+				537020F428377E9C00025DD3 /* TypeStyle */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		537020FD28377F8000025DD3 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				537020FE28377F9F00025DD3 /* Label.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		537021002837804400025DD3 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				537021012837804A00025DD3 /* Icon.swift */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		53702103283780FE00025DD3 /* Elevation */ = {
+			isa = PBXGroup;
+			children = (
+				53702104283780FE00025DD3 /* Elevation.swift */,
+				53702105283780FE00025DD3 /* Elevation+Extensions.swift */,
+			);
+			path = Elevation;
+			sourceTree = "<group>";
+		};
+		53702115283A84F900025DD3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				53702116283A850D00025DD3 /* LabelTests.swift */,
+				5370211A283A878A00025DD3 /* IconViewTests.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +321,9 @@
 				537020A728377CD500025DD3 /* PBXTargetDependency */,
 			);
 			name = DesignSystem101Tests;
+			packageProductDependencies = (
+				5370211D283A880E00025DD3 /* SnapshotTesting */,
+			);
 			productName = DesignSystem101Tests;
 			productReference = 537020A428377CD500025DD3 /* DesignSystem101Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -159,6 +355,9 @@
 				Base,
 			);
 			mainGroup = 5370209228377CD400025DD3;
+			packageReferences = (
+				5370211C283A880E00025DD3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 5370209D28377CD400025DD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,6 +373,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53702119283A863600025DD3 /* Icons.xcassets in Resources */,
+				537020DA28377D0900025DD3 /* Fonts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +392,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537020F028377D0900025DD3 /* Animation.swift in Sources */,
+				537020E928377D0900025DD3 /* Spacer.swift in Sources */,
+				537020FF28377F9F00025DD3 /* Label.swift in Sources */,
+				537020DC28377D0900025DD3 /* Font.swift in Sources */,
+				537020F228377D0900025DD3 /* ScaleAnimation.swift in Sources */,
+				537020E828377D0900025DD3 /* Spacer+Extensions.swift in Sources */,
+				537020ED28377D0900025DD3 /* ColorSet.swift in Sources */,
+				537020DB28377D0900025DD3 /* TypeStyle.swift in Sources */,
+				537020EC28377D0900025DD3 /* IconView.swift in Sources */,
+				537021022837809000025DD3 /* Icon.swift in Sources */,
+				53702107283780FE00025DD3 /* Elevation+Extensions.swift in Sources */,
+				537020EE28377D0900025DD3 /* Theme.swift in Sources */,
+				53702106283780FE00025DD3 /* Elevation.swift in Sources */,
+				537020F128377D0900025DD3 /* AnimationDuration.swift in Sources */,
+				537020EF28377D0900025DD3 /* AnimationTiming.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +414,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537020AA28377CD500025DD3 /* DesignSystem101Tests.swift in Sources */,
+				5370211B283A878A00025DD3 /* IconViewTests.swift in Sources */,
+				537020FA28377E9C00025DD3 /* TypeStyleTests.swift in Sources */,
+				537020FB28377E9C00025DD3 /* SpacerTests.swift in Sources */,
+				53702117283A850D00025DD3 /* LabelTests.swift in Sources */,
+				537020F928377E9C00025DD3 /* FontTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +610,7 @@
 		537020B228377CD500025DD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,6 +626,7 @@
 		537020B328377CD500025DD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -448,6 +670,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5370211C283A880E00025DD3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5370211D283A880E00025DD3 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5370211C283A880E00025DD3 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5370209328377CD400025DD3 /* Project object */;
 }
